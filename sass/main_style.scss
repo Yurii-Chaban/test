@@ -14,8 +14,6 @@
 // Lenguage select
 
 	body { font-family:Arial, Helvetica, Sans-Serif; font-size:0.75em; color:#000;}
-    .desc { color:#6b6b6b;}
-    .desc a {color:#0092dd;}
     
     .dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; }
     .dropdown dd { position:relative; }
@@ -34,3 +32,22 @@
     
     .dropdown img.flag { border:none; vertical-align:middle; margin-right:10px; }
     .flagvisibility { display:none;}
+    // ------------------------------------------------------------------------------------------------------------------------
+    
+    .color-dropdown dd, .color-dropdown dt, .color-dropdown ul { margin:0px; padding:0px; }
+    .color-dropdown dd { position:relative; }
+    .color-dropdown a, .color-dropdown a:visited { color:#816c5b; text-decoration:none; outline:none;}
+    .color-dropdown a:hover { color:#5d4617;}
+    .color-dropdown dt a:hover { color:#5d4617; border: 1px solid #d0c9af;}
+    .color-dropdown dt a {background:#e4dfcb url('../images/arrow.png') no-repeat scroll right center; display:block; padding-right:20px;
+                    border:1px solid #d4ca9a; width:150px;}
+    .color-dropdown dt a span {cursor:pointer; display:block; padding:5px;}
+    .color-dropdown dd ul { background:#e4dfcb none repeat scroll 0 0; border:1px solid #d4ca9a; color:#C5C0B0; display:none;
+                      left:0px; padding:5px 0px; position:absolute; top:2px; width:auto; min-width:170px; list-style:none;}
+    .color-dropdown span.value { display:none;}
+    .color-dropdown dd ul { z-index: 999; }
+    .color-dropdown dd ul li a { padding:5px; display:block;}
+    .color-dropdown dd ul li a:hover { background-color:#d0c9af;}
+    
+    .color-dropdown img.color { border:none; vertical-align:middle; margin-right:10px; }
+    .colorvisibility { display:none;}

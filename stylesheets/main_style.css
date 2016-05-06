@@ -81,46 +81,36 @@ body {
   color: #000;
 }
 
-/* line 17, ../sass/main_style.scss */
-.desc {
-  color: #6b6b6b;
-}
-
 /* line 18, ../sass/main_style.scss */
-.desc a {
-  color: #0092dd;
-}
-
-/* line 20, ../sass/main_style.scss */
 .dropdown dd, .dropdown dt, .dropdown ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 21, ../sass/main_style.scss */
+/* line 19, ../sass/main_style.scss */
 .dropdown dd {
   position: relative;
 }
 
-/* line 22, ../sass/main_style.scss */
+/* line 20, ../sass/main_style.scss */
 .dropdown a, .dropdown a:visited {
   color: #816c5b;
   text-decoration: none;
   outline: none;
 }
 
-/* line 23, ../sass/main_style.scss */
+/* line 21, ../sass/main_style.scss */
 .dropdown a:hover {
   color: #5d4617;
 }
 
-/* line 24, ../sass/main_style.scss */
+/* line 22, ../sass/main_style.scss */
 .dropdown dt a:hover {
   color: #5d4617;
   border: 1px solid #d0c9af;
 }
 
-/* line 25, ../sass/main_style.scss */
+/* line 23, ../sass/main_style.scss */
 .dropdown dt a {
   background: #e4dfcb url("../images/arrow.png") no-repeat scroll right center;
   display: block;
@@ -129,14 +119,14 @@ body {
   width: 150px;
 }
 
-/* line 27, ../sass/main_style.scss */
+/* line 25, ../sass/main_style.scss */
 .dropdown dt a span {
   cursor: pointer;
   display: block;
   padding: 5px;
 }
 
-/* line 28, ../sass/main_style.scss */
+/* line 26, ../sass/main_style.scss */
 .dropdown dd ul {
   background: #e4dfcb none repeat scroll 0 0;
   border: 1px solid #d4ca9a;
@@ -151,35 +141,128 @@ body {
   list-style: none;
 }
 
-/* line 30, ../sass/main_style.scss */
+/* line 28, ../sass/main_style.scss */
 .dropdown span.value {
   display: none;
 }
 
-/* line 31, ../sass/main_style.scss */
+/* line 29, ../sass/main_style.scss */
 .dropdown dd ul {
   z-index: 999;
 }
 
-/* line 32, ../sass/main_style.scss */
+/* line 30, ../sass/main_style.scss */
 .dropdown dd ul li a {
   padding: 5px;
   display: block;
 }
 
-/* line 33, ../sass/main_style.scss */
+/* line 31, ../sass/main_style.scss */
 .dropdown dd ul li a:hover {
   background-color: #d0c9af;
 }
 
-/* line 35, ../sass/main_style.scss */
+/* line 33, ../sass/main_style.scss */
 .dropdown img.flag {
   border: none;
   vertical-align: middle;
   margin-right: 10px;
 }
 
-/* line 36, ../sass/main_style.scss */
+/* line 34, ../sass/main_style.scss */
 .flagvisibility {
+  display: none;
+}
+
+/* line 37, ../sass/main_style.scss */
+.color-dropdown dd, .color-dropdown dt, .color-dropdown ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 38, ../sass/main_style.scss */
+.color-dropdown dd {
+  position: relative;
+}
+
+/* line 39, ../sass/main_style.scss */
+.color-dropdown a, .color-dropdown a:visited {
+  color: #816c5b;
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 40, ../sass/main_style.scss */
+.color-dropdown a:hover {
+  color: #5d4617;
+}
+
+/* line 41, ../sass/main_style.scss */
+.color-dropdown dt a:hover {
+  color: #5d4617;
+  border: 1px solid #d0c9af;
+}
+
+/* line 42, ../sass/main_style.scss */
+.color-dropdown dt a {
+  background: #e4dfcb url("../images/arrow.png") no-repeat scroll right center;
+  display: block;
+  padding-right: 20px;
+  border: 1px solid #d4ca9a;
+  width: 150px;
+}
+
+/* line 44, ../sass/main_style.scss */
+.color-dropdown dt a span {
+  cursor: pointer;
+  display: block;
+  padding: 5px;
+}
+
+/* line 45, ../sass/main_style.scss */
+.color-dropdown dd ul {
+  background: #e4dfcb none repeat scroll 0 0;
+  border: 1px solid #d4ca9a;
+  color: #C5C0B0;
+  display: none;
+  left: 0px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 2px;
+  width: auto;
+  min-width: 170px;
+  list-style: none;
+}
+
+/* line 47, ../sass/main_style.scss */
+.color-dropdown span.value {
+  display: none;
+}
+
+/* line 48, ../sass/main_style.scss */
+.color-dropdown dd ul {
+  z-index: 999;
+}
+
+/* line 49, ../sass/main_style.scss */
+.color-dropdown dd ul li a {
+  padding: 5px;
+  display: block;
+}
+
+/* line 50, ../sass/main_style.scss */
+.color-dropdown dd ul li a:hover {
+  background-color: #d0c9af;
+}
+
+/* line 52, ../sass/main_style.scss */
+.color-dropdown img.color {
+  border: none;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* line 53, ../sass/main_style.scss */
+.colorvisibility {
   display: none;
 }
