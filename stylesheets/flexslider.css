@@ -45,7 +45,7 @@
   padding: 0;
 }
 .flexslider .slides > li {
-  display: none;
+  display: block;
   -webkit-backface-visibility: hidden;
 }
 .flexslider .slides img {
