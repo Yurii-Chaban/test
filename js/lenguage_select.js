@@ -26,3 +26,4 @@ $(document).ready(function() {
         $(".dropdown img.flag").toggleClass("flagvisibility");
     });
 });
+

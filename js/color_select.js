@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
                 
     $(".color-dropdown dd ul li a").click(function() {
-        var text = $(this).html();
+        var color_text = $(this).html();
         $(".color-dropdown dt a span").html(text);
         $(".color-dropdown dd ul").hide();
     });
@@ -16,8 +16,8 @@ $(document).ready(function() {
     }
 
     $(document).bind('click', function(e) {
-        var $clicked = $(e.target);
-        if (! $clicked.parents().hasClass("color-dropdown"))
+        var $color_clicked = $(e.target);
+        if (! $color_clicked.parents().hasClass("color-dropdown"))
             $(".color-dropdown dd ul").hide();
     });
 

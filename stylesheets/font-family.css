@@ -1,0 +1,68 @@
+
+
+/*Heavenetica font family regular*/
+@font-face {
+    font-family: 'Heavenetica3ThinSH';
+    src: url('../resorces/heavenetica/heavenetica3_thinsh-webfont.woff2') format('woff2'),
+         url('../resorces/heavenetica/heavenetica3_thinsh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Heavenetica4LtSH';
+    src: url('../resorces/heavenetica/heavenetica4_ltsh-webfont.woff2') format('woff2'),
+         url('../resorces/heavenetica/heavenetica4_ltsh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Heavenetica5SH';
+    src: url('../resorces/heavenetica/heavenetica5_sh-webfont.woff2') format('woff2'),
+         url('../resorces/heavenetica/heavenetica5_sh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Heavenetica5PSBldSH';
+    src: url('../resorces/heavenetica/heavenetica5p_sbldsh-webfont.woff2') format('woff2'),
+         url('../resorces/heavenetica/heavenetica5p_sbldsh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Arial regular*/
+@font-face {
+    font-family: 'Arial';
+    src: url('../resorces/Arial/Arial-Regular.eot');
+    src: url('../resorces/Arial/Arial-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../resorces/Arial/Arial-Regular.woff') format('woff'),
+         url('../resorces/Arial/Arial-Regular.ttf') format('truetype'),
+         url('../resorces/Arial/Arial-Regular.svg#Arial-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Tahoma regular*/
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../resorces/Tahoma/Tahoma-Regular.eot');
+    src: url('../resorces/Tahoma/Tahoma-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../resorces/Tahoma/Tahoma-Regular.woff') format('woff'),
+         url('../resorces/Tahoma/Tahoma-Regular.ttf') format('truetype'),
+         url('../resorces/Tahoma/Tahoma-Regular.svg#Tahoma-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*MinionPro regular*/
+@font-face {
+font-family: 'MinionPro';
+font-style: normal;
+font-weight: normal;
+src: local('../resorces/MinionPro/Minion Pro Regular'), url('MinionPro-Regular.woff') format('woff');
+}

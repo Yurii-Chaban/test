@@ -12,12 +12,19 @@
 }
 
 /* minimal styles for that navi */
-.rmm {margin: 0 auto;}
-.rmm ul {margin: 0; padding:0; list-style: none; position: relative; background: #000;}
+.rmm {float: left; width: 100%; margin: 0 auto;}
+.rmm ul {margin: 0; padding:0; list-style: none; position: relative; background: #c9c9c9;}
 .rmm ul:after {content: ""; clear: both; display: block;}
-.rmm ul li {float: left;}
+.rmm ul li {float: left; -webkit-transition: all 0.3s ease-in-out;
+					-moz-transition:    all 0.3s ease-in-out;
+					-o-transition:      all 0.3s ease-in-out;}
 .rmm ul li:hover {background: #202020;}
 .rmm ul li:hover > ul {display: block;}
+@media (min-width: 768px) {
+	.rmm ul li:hover > ul {
+		width: 160px;
+	}
+}
 .rmm ul li:hover a{color: #fff;}
 .rmm ul li a {color: #fff; display: block; text-decoration: none;}
 .rmm ul ul {display: none; margin:0; padding: 0; position: absolute; top: 100%;}
@@ -27,23 +34,23 @@
 .rmm ul ul ul {position: absolute; left: 100%; top:0; width: 100%;}
 
 /* mobile menu header button */
-.rmm-toggled {width: 100%; background-color: #555555; min-height: 50px; margin: 0 auto; display: none;}
+.rmm-toggled {width: 100%; background-color: #dadada; min-height: 50px; margin: 0 auto; display: none;}
 .rmm-closed ~ .rmm-mobile {display: none!important;}
 .rmm-toggled-controls{width: 100%;}
-.rmm-toggled-title{width: 60%; float: left; font-size: 27px; color: #fff; font-weight:600; display: block; padding: 8px 0; text-decoration: none; text-transform: uppercase; text-align: left; padding-left: 35px;}
+.rmm-toggled-title{width: 60%; float: left; font-size: 27px; color: #000; font-weight:600; display: block; padding: 8px 0; text-decoration: none; text-transform: uppercase; text-align: left; padding-left: 35px;}
 .rmm-toggled-button{width: 20%; float: left; margin-top: 3px;
 	display:block;
 	width: 32px;
 	padding:0 !important;
 	margin:10px 10px 0 0;
-	border:1px solid #fff;
+	border:1px solid #000;
 	border-radius:3px;
 	float: right;
 }
-.rmm-toggled-button span{float: left; display:block; margin: 3px 6px; height: 3px; background:white; width:20px;}
+.rmm-toggled-button span{float: left; display:block; margin: 3px 6px; height: 3px; background:#000; width:20px;}
 
 /* normalny back button visible only on mobiles  */
-.rmm .rmm-back{display: none; font-size: 12px;}
+.rmm .rmm-back{display: none; font-size: 14px;}
 .rmm .rmm-back:after {display: none;}
 .rmm .rmm-back a:after {
 	font-family: 'icomoon';
@@ -80,15 +87,25 @@
 .rmm .rmm-mobile li:hover > ul {display: none;}
 
 /* arrow down for wide screen */
-.rmm.style {text-align: left; font-family: Tahoma;}
-.rmm.style ul {box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); background:#990; text-transform: uppercase; display: inline-table; text-align:left; z-index: 999;}
+.rmm.style {margin-top: 20px; text-align: left; color: #010101; font-family: Heavenetica4LtSH; font-size: 14px; font-weight: 400; line-height: 26px;}
+@media (min-width: 480px) {
+	.rmm.style {
+	  margin: 20px 20px 0;
+	}
+}
+@media (min-width: 768px) {
+	.rmm.style {
+	  margin: 0;
+	}
+}
+.rmm.style ul { background:#dadada; text-transform: lowercase; display: inline-table; text-align:left; z-index: 999;}
 .rmm.style ul li {text-align:left;}
-.rmm.style ul li:hover {background: #4b545f;}
-.rmm.style ul ul {display: none; margin:0; background: #5f6975; border-radius: 0px; padding: 0; position: absolute;}
-.rmm.style ul li a {color: #fff; font-weight:600; display: block; padding: 15px 35px; text-decoration: none; font-weight:600; }
-.rmm.style ul ul li {border-bottom: 1px solid #575F6A; border-top: 1px solid #6B727C;}
-.rmm.style ul ul li a {padding: 12px 35px; color: #fff; }
-.rmm.style ul ul li a:hover {background: #4b545f;}
+.rmm.style ul li:hover {background: #ffffff;}
+.rmm.style ul ul {display: none; margin:0; background: #c9c9c9; border-radius: 0px; padding: 0; position: absolute;}
+.rmm.style ul li a {color: #000; font-size: 14px; display: block; padding: 15px 35px; text-decoration: none; font-weight:600; }
+.rmm.style ul ul li {border-bottom: 1px solid #ccc; border-top: 1px solid #bebebe;}
+.rmm.style ul ul li a {padding: 12px 35px; color: #000; text-transform: initial;}
+.rmm.style ul ul li a:hover {background: #ffffff;}
 
 /* arrow down for wide screen */
 .rmm.style ul li > a:not(:only-child):after {
@@ -102,7 +119,7 @@
 	transform: rotate(210deg);
 	top: -4px;
 	left: 1px;
-	font-size: 10px;
+	font-size: 14px;
 }
 
 /* arrow left for wide screen submenus  */
@@ -110,7 +127,7 @@
 
 /* mobile style */
 .rmm.style .rmm-mobile li > a:not(:only-child):after {-webkit-transform: rotate(120deg)!important; transform: rotate(120deg)!important; top: 4px!important; font-size: 14px!important; float: right; margin-right: -20px;}
-.rmm.style .rmm-mobile li{background: #3ab4a6; border-bottom: 1px solid #575f6a!important; border-top: 0!important; }
+.rmm.style .rmm-mobile li{background: #c9c9c9; border-bottom: 1px solid #ffffff!important; border-top: 0!important; }
 
 
 
