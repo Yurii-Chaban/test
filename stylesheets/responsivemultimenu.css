@@ -102,9 +102,9 @@
 .rmm.style ul li {text-align:left;}
 .rmm.style ul li:hover {background: #ffffff;}
 .rmm.style ul ul {display: none; margin:0; background: #c9c9c9; border-radius: 0px; padding: 0; position: absolute;}
-.rmm.style ul li a {color: #000; font-size: 14px; display: block; padding: 15px 35px; text-decoration: none; font-weight:600; }
+.rmm.style ul li a {color: #000; display: block; padding: 15px 35px; text-decoration: none; color: #010101; font-family: 'Heavenetica4LtSH', sans-serif; font-size: 14px; font-weight: 400; line-height: 26px; }
 .rmm.style ul ul li {border-bottom: 1px solid #ccc; border-top: 1px solid #bebebe;}
-.rmm.style ul ul li a {padding: 12px 35px; color: #000; text-transform: initial;}
+.rmm.style ul ul li a {padding: 12px 35px; color: #000; text-transform: initial; font-family: 'Heavenetica4LtSH', sans-serif; font-size: 14px; font-weight: 400; line-height: 30px;}
 .rmm.style ul ul li a:hover {background: #ffffff;}
 
 
