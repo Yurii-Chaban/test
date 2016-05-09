@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Welcome to Compass.
 * In this file you should write your main styles. (or centralize your imports)
 * Import this file using the following HTML or equivalent:
@@ -961,48 +960,26 @@ header .rirght-top-nav .close:before {
 /* line 804, ../sass/main_style.scss */
 .quote-request {
   margin: 80px 0 55px;
-  /*----------------------------*/
-  	/*------------------------------------*\
-  -------- Page Styles: Accordion
-  \*------------------------------------*/
 }
-/* line 811, ../sass/main_style.scss */
-.quote-request .accordion-block {
-  margin-top: 20px;
-}
-/* line 814, ../sass/main_style.scss */
-.quote-request .accordion-block:before {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  content: '';
-  background: -webkit-radial-gradient(30%, rgba(255, 255, 255, 0.15), transparent);
-  background: -moz-radial-gradient(30%, rgba(255, 255, 255, 0.15), transparent);
-  background: -o-radial-gradient(30%, rgba(255, 255, 255, 0.15), transparent);
-  background: radial-gradient(30%, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0));
-}
-/* line 827, ../sass/main_style.scss */
-.quote-request ╨╡╤Д .quote-info {
+/* line 807, ../sass/main_style.scss */
+.quote-request .quote-info {
   float: left;
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  /* line 827, ../sass/main_style.scss */
-  .quote-request ╨╡╤Д .quote-info {
+  /* line 807, ../sass/main_style.scss */
+  .quote-request .quote-info {
     width: 400px;
   }
 }
 @media (min-width: 1024px) {
-  /* line 827, ../sass/main_style.scss */
-  .quote-request ╨╡╤Д .quote-info {
+  /* line 807, ../sass/main_style.scss */
+  .quote-request .quote-info {
     width: 68%;
   }
 }
-/* line 838, ../sass/main_style.scss */
-.quote-request ╨╡╤Д .quote-info .quote-info-title {
+/* line 818, ../sass/main_style.scss */
+.quote-request .quote-info .quote-info-title {
   max-width: 185px;
   width: 100%;
   margin: 0 auto 30px;
@@ -1017,8 +994,8 @@ header .rirght-top-nav .close:before {
   background: #e0e0e0;
   border: 2px solid #000;
 }
-/* line 853, ../sass/main_style.scss */
-.quote-request ╨╡╤Д .quote-info .quote-info-description {
+/* line 833, ../sass/main_style.scss */
+.quote-request .quote-info .quote-info-description {
   padding: 15px;
   text-align: justify;
   color: #010101;
@@ -1029,13 +1006,13 @@ header .rirght-top-nav .close:before {
 }
 
 /*big-lorem-bg section*/
-/* line 866, ../sass/main_style.scss */
+/* line 846, ../sass/main_style.scss */
 .big-lorem-bg {
   padding: 90px 0 120px;
   background: url("../images/big-lorem-bg.jpg") no-repeat;
   background-position: cover;
 }
-/* line 871, ../sass/main_style.scss */
+/* line 851, ../sass/main_style.scss */
 .big-lorem-bg .big-lorem-title {
   margin: 0 auto 20px;
   font-family: 'Heavenetica3ThinSH', sans-serif;
@@ -1047,12 +1024,12 @@ header .rirght-top-nav .close:before {
   text-align: center;
 }
 @media (min-width: 1200px) {
-  /* line 871, ../sass/main_style.scss */
+  /* line 851, ../sass/main_style.scss */
   .big-lorem-bg .big-lorem-title {
     font-size: 77px;
   }
 }
-/* line 884, ../sass/main_style.scss */
+/* line 864, ../sass/main_style.scss */
 .big-lorem-bg .big-lorem-description {
   max-width: 335px;
   width: 100%;
@@ -1065,12 +1042,12 @@ header .rirght-top-nav .close:before {
   line-height: 18px;
 }
 
-/* line 899, ../sass/main_style.scss */
+/* line 879, ../sass/main_style.scss */
 .request .popbox {
   width: 94%;
   padding: 10px;
 }
-/* line 905, ../sass/main_style.scss */
+/* line 885, ../sass/main_style.scss */
 .request .open .fa {
   float: right;
   width: 92px;
@@ -1080,7 +1057,7 @@ header .rirght-top-nav .close:before {
   text-align: center;
   background-color: #e3e3e3;
 }
-/* line 915, ../sass/main_style.scss */
+/* line 895, ../sass/main_style.scss */
 .request .collapse {
   box-sizing: border-box;
   max-width: 980px;
@@ -1088,7 +1065,7 @@ header .rirght-top-nav .close:before {
   margin: 100px auto;
   padding: 40px 50px 50px;
 }
-/* line 922, ../sass/main_style.scss */
+/* line 902, ../sass/main_style.scss */
 .request .collapse .collapse-title {
   margin: 0 auto 20px;
   color: #010101;
@@ -1099,7 +1076,7 @@ header .rirght-top-nav .close:before {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 932, ../sass/main_style.scss */
+/* line 912, ../sass/main_style.scss */
 .request .collapse .contact-form {
   width: 100%;
   color: #010101;
@@ -1108,17 +1085,17 @@ header .rirght-top-nav .close:before {
   font-weight: 400;
   line-height: 30px;
 }
-/* line 941, ../sass/main_style.scss */
+/* line 921, ../sass/main_style.scss */
 .request .collapse .contact-form .input .region-sign {
   display: block;
 }
-/* line 944, ../sass/main_style.scss */
+/* line 924, ../sass/main_style.scss */
 .request .collapse .contact-form .input .interest-sign {
   display: block;
   font-size: 11px;
   line-height: 14px;
 }
-/* line 949, ../sass/main_style.scss */
+/* line 929, ../sass/main_style.scss */
 .request .collapse .contact-form .input #addition_notes {
   max-width: 484px;
   width: 94%;
@@ -1127,13 +1104,19 @@ header .rirght-top-nav .close:before {
   background-color: white;
   border: 1px solid #c8c8c8;
 }
+@media (min-width: 480px) {
+  /* line 929, ../sass/main_style.scss */
+  .request .collapse .contact-form .input #addition_notes {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) {
-  /* line 949, ../sass/main_style.scss */
+  /* line 929, ../sass/main_style.scss */
   .request .collapse .contact-form .input #addition_notes {
     width: 74.5%;
   }
 }
-/* line 962, ../sass/main_style.scss */
+/* line 946, ../sass/main_style.scss */
 .request .collapse .contact-form label {
   margin-right: 15px;
   color: #010101;
@@ -1142,28 +1125,28 @@ header .rirght-top-nav .close:before {
   font-weight: 400;
   line-height: 30px;
 }
-/* line 971, ../sass/main_style.scss */
+/* line 955, ../sass/main_style.scss */
 .request .collapse .contact-form .company-address dd {
   margin-left: 10px;
 }
 @media (min-width: 768px) {
-  /* line 971, ../sass/main_style.scss */
+  /* line 955, ../sass/main_style.scss */
   .request .collapse .contact-form .company-address dd {
     margin-top: -40px;
   }
 }
-/* line 977, ../sass/main_style.scss */
+/* line 961, ../sass/main_style.scss */
 .request .collapse .contact-form .company-address dd input {
   width: 95%;
 }
-/* line 982, ../sass/main_style.scss */
+/* line 966, ../sass/main_style.scss */
 .request .collapse .contact-form input[type='checkbox'] {
   width: 22px;
   height: 22px;
   background-color: #fff;
   border: 1px solid #c8c8c8;
 }
-/* line 988, ../sass/main_style.scss */
+/* line 972, ../sass/main_style.scss */
 .request .collapse .contact-form .submit-button {
   float: right;
   width: 103px;
@@ -1178,35 +1161,35 @@ header .rirght-top-nav .close:before {
   background-color: #000;
 }
 @media (min-width: 480px) {
-  /* line 1005, ../sass/main_style.scss */
+  /* line 989, ../sass/main_style.scss */
   .request .collapse {
     width: 432px;
   }
-  /* line 1008, ../sass/main_style.scss */
+  /* line 992, ../sass/main_style.scss */
   .request .contact-form {
     box-sizing: border-box;
     text-align: left;
   }
-  /* line 1012, ../sass/main_style.scss */
+  /* line 996, ../sass/main_style.scss */
   .request .contact-form input {
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  /* line 1018, ../sass/main_style.scss */
+  /* line 1002, ../sass/main_style.scss */
   .request .collapse {
     width: 704px;
   }
-  /* line 1021, ../sass/main_style.scss */
+  /* line 1005, ../sass/main_style.scss */
   .request .collapse .box {
     width: 105%;
   }
-  /* line 1025, ../sass/main_style.scss */
+  /* line 1009, ../sass/main_style.scss */
   .request .contact-form {
     box-sizing: border-box;
     text-align: right;
   }
-  /* line 1029, ../sass/main_style.scss */
+  /* line 1013, ../sass/main_style.scss */
   .request .contact-form input {
     width: 475px;
     min-height: 25px;
@@ -1214,105 +1197,105 @@ header .rirght-top-nav .close:before {
     border: none;
     border: 1px solid #c8c8c8;
   }
-  /* line 1036, ../sass/main_style.scss */
+  /* line 1020, ../sass/main_style.scss */
   .request .contact-form dt {
     text-align: left;
   }
-  /* line 1039, ../sass/main_style.scss */
+  /* line 1023, ../sass/main_style.scss */
   .request .contact-form dd {
     margin-bottom: 20px;
   }
-  /* line 1041, ../sass/main_style.scss */
+  /* line 1025, ../sass/main_style.scss */
   .request .contact-form dd:first-child {
     margin-top: -40px;
   }
-  /* line 1044, ../sass/main_style.scss */
+  /* line 1028, ../sass/main_style.scss */
   .request .contact-form dd:last-child {
     margin-bottom: 0;
   }
-  /* line 1048, ../sass/main_style.scss */
+  /* line 1032, ../sass/main_style.scss */
   .request .contact-form #street,
   .request .contact-form #city,
   .request .contact-form #state {
     width: 368px;
   }
-  /* line 1053, ../sass/main_style.scss */
+  /* line 1037, ../sass/main_style.scss */
   .request .contact-form label[for=zip_code] {
     float: left;
     margin-left: 70px;
     line-height: 55px;
   }
-  /* line 1058, ../sass/main_style.scss */
+  /* line 1042, ../sass/main_style.scss */
   .request .contact-form .region {
     clear: both;
     text-align: left;
   }
-  /* line 1062, ../sass/main_style.scss */
+  /* line 1046, ../sass/main_style.scss */
   .request .contact-form .region .region-title {
     float: left;
     margin-right: 20px;
     text-align: right;
   }
-  /* line 1067, ../sass/main_style.scss */
+  /* line 1051, ../sass/main_style.scss */
   .request .contact-form .region ul {
     float: right;
     width: 330px;
   }
-  /* line 1070, ../sass/main_style.scss */
+  /* line 1054, ../sass/main_style.scss */
   .request .contact-form .region ul li {
     display: inline-block;
     margin: -15px 5px;
   }
-  /* line 1074, ../sass/main_style.scss */
+  /* line 1058, ../sass/main_style.scss */
   .request .contact-form .region ul li input[type='checkbox'] {
     margin-right: 15px;
   }
-  /* line 1080, ../sass/main_style.scss */
+  /* line 1064, ../sass/main_style.scss */
   .request .contact-form .country {
     clear: both;
     float: left;
     margin-bottom: 23px;
   }
-  /* line 1084, ../sass/main_style.scss */
+  /* line 1068, ../sass/main_style.scss */
   .request .contact-form .country label {
     float: left;
     margin-right: 8px;
     text-align: left;
   }
-  /* line 1089, ../sass/main_style.scss */
+  /* line 1073, ../sass/main_style.scss */
   .request .contact-form .country .interest-sign {
     width: 144px;
     text-align: right;
   }
-  /* line 1094, ../sass/main_style.scss */
+  /* line 1078, ../sass/main_style.scss */
   .request .contact-form .notes {
     clear: both;
   }
-  /* line 1097, ../sass/main_style.scss */
+  /* line 1081, ../sass/main_style.scss */
   .request .contact-form .notes label {
     vertical-align: top;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1104, ../sass/main_style.scss */
+  /* line 1088, ../sass/main_style.scss */
   .request .collapse {
     box-sizing: border-box;
     width: 960px;
   }
-  /* line 1107, ../sass/main_style.scss */
+  /* line 1091, ../sass/main_style.scss */
   .request .collapse .box {
     width: 100%;
   }
-  /* line 1111, ../sass/main_style.scss */
+  /* line 1095, ../sass/main_style.scss */
   .request .collapse .contact-form input {
     width: 484px;
   }
-  /* line 1116, ../sass/main_style.scss */
+  /* line 1100, ../sass/main_style.scss */
   .request .collapse .company-address dl {
     float: right;
     width: 627px;
   }
-  /* line 1120, ../sass/main_style.scss */
+  /* line 1104, ../sass/main_style.scss */
   .request .collapse .company-address dt {
     color: #010101;
     font-family: 'Heavenetica4LtSH', sans-serif;
@@ -1320,27 +1303,27 @@ header .rirght-top-nav .close:before {
     font-weight: 400;
     line-height: 30px;
   }
-  /* line 1127, ../sass/main_style.scss */
+  /* line 1111, ../sass/main_style.scss */
   .request .collapse .company-address .coutry-info {
     clear: both;
     float: right;
     width: 563px;
   }
-  /* line 1133, ../sass/main_style.scss */
+  /* line 1117, ../sass/main_style.scss */
   .request .collapse .company-address label[for=zip_code] {
     margin: 30px 0 0;
     line-height: 0;
   }
-  /* line 1138, ../sass/main_style.scss */
+  /* line 1122, ../sass/main_style.scss */
   .request .collapse .region {
     width: 710px;
     float: right;
   }
-  /* line 1142, ../sass/main_style.scss */
+  /* line 1126, ../sass/main_style.scss */
   .request .collapse .region .region-title {
     margin-right: 136px;
   }
-  /* line 1145, ../sass/main_style.scss */
+  /* line 1129, ../sass/main_style.scss */
   .request .collapse .region label {
     color: #010101;
     font-family: 'Heavenetica4LtSH', sans-serif;
@@ -1348,31 +1331,31 @@ header .rirght-top-nav .close:before {
     font-weight: 400;
     line-height: 30px;
   }
-  /* line 1153, ../sass/main_style.scss */
+  /* line 1137, ../sass/main_style.scss */
   .request .collapse .country {
     width: 725px;
     float: right;
   }
-  /* line 1157, ../sass/main_style.scss */
+  /* line 1141, ../sass/main_style.scss */
   .request .collapse .country label {
     text-align: right;
   }
-  /* line 1160, ../sass/main_style.scss */
+  /* line 1144, ../sass/main_style.scss */
   .request .collapse .country label .interest-sign {
     width: 223px;
   }
 }
 
-/* line 1169, ../sass/main_style.scss */
+/* line 1153, ../sass/main_style.scss */
 footer {
   padding: 80px 0 10px;
   background: #e7e7e7;
 }
-/* line 1172, ../sass/main_style.scss */
+/* line 1156, ../sass/main_style.scss */
 footer .footer-navigation {
   margin: 0 auto;
 }
-/* line 1174, ../sass/main_style.scss */
+/* line 1158, ../sass/main_style.scss */
 footer .footer-navigation li {
   display: inline-block;
   height: 100%;
@@ -1381,12 +1364,12 @@ footer .footer-navigation li {
   padding-left: 5px;
   border-left: 1px solid #000;
 }
-/* line 1182, ../sass/main_style.scss */
+/* line 1166, ../sass/main_style.scss */
 footer .footer-navigation li:first-child {
   margin: none;
   border: none;
 }
-/* line 1186, ../sass/main_style.scss */
+/* line 1170, ../sass/main_style.scss */
 footer .footer-navigation li a {
   padding-left: 5px;
   color: #000;
