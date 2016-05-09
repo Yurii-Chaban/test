@@ -547,7 +547,7 @@ header .rirght-top-nav .close:before {
 /* line 447, ../sass/main_style.scss */
 .product .tabs li {
   display: inline-block;
-  margin: 7px -2px;
+  margin: 7px -3px;
 }
 /* line 451, ../sass/main_style.scss */
 .product .tabs li label {

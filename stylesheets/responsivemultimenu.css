@@ -107,20 +107,7 @@
 .rmm.style ul ul li a {padding: 12px 35px; color: #000; text-transform: initial;}
 .rmm.style ul ul li a:hover {background: #ffffff;}
 
-/* arrow down for wide screen */
-.rmm.style ul li > a:not(:only-child):after {
-	font-family: 'icomoon';
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-	content: "\e000";
-	position: relative;
-	display: inline-block;
-	-webkit-transform: rotate(210deg);
-	transform: rotate(210deg);
-	top: -4px;
-	left: 1px;
-	font-size: 14px;
-}
+
 
 /* arrow left for wide screen submenus  */
 .rmm.style ul ul li > a:not(:only-child):after {-webkit-transform: rotate(120deg)!important; transform: rotate(120deg)!important; top: 2px; font-size: 14px; float: right; margin-right: -20px;}
